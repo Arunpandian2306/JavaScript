@@ -62,11 +62,11 @@ const person1 = {
     city: "Chennai"
 };
 
-const name = person1.name;
-const age = person1.age;
+const name1 = person1.name;
+const age1 = person1.age;
 
-console.log(name); // Arun
-console.log(age);  // 25
+console.log(name1); // Arun
+console.log(age1);  // 25
 
 // With Destructuring
 const person2 = {
@@ -75,9 +75,9 @@ const person2 = {
     city: "Chennai"
 };
 
-const { name, age } = person2;
+const { name2, age } = person2;
 
-console.log(name); // Arun
+console.log(name2); // Arun
 console.log(age);  // 25
 
 // Rename Variables
@@ -96,9 +96,9 @@ const person4 = {
     name: "Arun"
 };
 
-const { name, city = "Chennai" } = person4;
+const { name, city1 = "Chennai" } = person4;
 
-console.log(city); // Chennai
+console.log(city1); // Chennai
 
 // Nested Object Destructuring
 const person5 = {
